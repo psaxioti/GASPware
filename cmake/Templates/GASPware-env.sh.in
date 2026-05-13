@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+export GSDIR="@CMAKE_INSTALL_PREFIX@/@CMAKE_INSTALL_DATADIR@/@PROJECT_NAME@"
+
+export GS_OPTIONS='-sPAPERSIZE=a4'

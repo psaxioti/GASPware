@@ -1,0 +1,9 @@
+add_executable(sadd
+   ${CMAKE_CURRENT_SOURCE_DIR}/src/sadd/sadd.F
+)
+
+install(TARGETS sadd
+   RUNTIME
+   LIBRARY
+   RESOURCE DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}
+)
